@@ -77,12 +77,11 @@
     In db folder:
         Create a file called .env
         with the following content:
-        ```MYSQL_HOST=<host>
+            MYSQL_HOST=<host>
             MYSQL_USER=<user>
             MYSQL_PASSWORD=<password>
             MYSQL_PORT=<port>
             MYSQL_DB=<database_name>
-        ```
 
 ### Once installated and activated, follow the next steps.
     On terminal:
