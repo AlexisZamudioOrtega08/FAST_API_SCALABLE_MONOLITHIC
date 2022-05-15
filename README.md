@@ -46,16 +46,12 @@
   localhost:8001/api/v1/timesheet/add
 ```
 
-| Parameter      | Type     | Description                         |
+| URL parameter  | Type     | Description                         |
 | :------------- | :------- | :---------------------------------  |
 | `emp_id`       | `int`    | **Required**. Employee id           |
 
-```http 
-    Example of request: POST
-    http://127.0.0.1:8000/api/v1/timesheet/add/?emp_id=2
-```
 
-| Parameter      | Type     | Description                         |
+| Body params    | Type     | Description                         |
 | :------------- | :------- | :---------------------------------  |
 | `id`           | `int`    | **Required**. Entry id              |
 | `hours`        | `int`    | **Required**. Hours worked by emp   |
