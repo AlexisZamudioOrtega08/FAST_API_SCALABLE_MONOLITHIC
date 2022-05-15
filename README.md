@@ -68,10 +68,6 @@
 
 ### NOTE: THIS API IS USING A SQLITE AND MYSQL DATABASE TO STORE DATA AND RETRIEVE DATA.
 
-### For installation, please create a python virtual environment and install requirements.txt.
-
-    pip install -r requirements.txt
-
 ### Prior to run any steps, you must have installed a mysql database.
 
     In db folder:
@@ -82,6 +78,10 @@
             MYSQL_PASSWORD=<password>
             MYSQL_PORT=<port>
             MYSQL_DB=<database_name>
+
+### For installation, please create a python virtual environment and install requirements.txt.
+
+    pip install -r requirements.txt
 
 ### Once installated and activated, follow the next steps.
     On terminal:
